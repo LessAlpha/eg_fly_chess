@@ -1,0 +1,14 @@
+
+# Created by .gitignore support plugin (hsz.mobi)
+.idea/
+.wing/
+bin-debug/
+bin-release/
+polyfill/
+# libs/
+# template/
+assistants/
+*.bat
+*.cmd
+
+

@@ -30,7 +30,7 @@ class Main extends eui.UILayer {
     private createScene(){
         if(this.isThemeLoadEnd && this.isResourceLoadEnd) {
             com_main.Bootstrap.startup(this);
-            AGame.CSocket.getInstance().connect();
+            //AGame.CSocket.getInstance().connect();
             AGame.R.notifyObserver(StartNav.ADD_START);
         }
     }

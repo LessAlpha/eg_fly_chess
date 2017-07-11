@@ -12,7 +12,7 @@ module com_main {
             ];
             for(let i in arrCmd)    r.registerRouter(arrCmd[i], IndexController);
         }
-
+        // test commit
         public execute(notification: AGame.INotification) {
             let name = notification.getName();
             let body = notification.getBody();
